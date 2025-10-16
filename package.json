@@ -1,16 +1,29 @@
 {
   "name": "lumilogger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern, luminous logging library for Node.js",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "keywords": [
+    "logger",
+    "logging",
+    "nodejs",
+    "typescript",
+    "debug",
+    "info",
+    "warn",
+    "error"
+  ],
+  "author": "Thimira Sadeesha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThimiraSadeesha/lumilogger.git"
+  },
   "devDependencies": {
     "@types/node": "^24.8.0",
     "typescript": "^5.9.3"
