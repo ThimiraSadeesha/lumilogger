@@ -1,5 +1,0 @@
-2025-10-16T16:52:40.111Z [INFO] This is an info message
-2025-10-16T16:52:40.112Z [WARN] This is a warning
-2025-10-16T16:52:40.112Z [ERROR] This is an error
-2025-10-16T16:52:40.112Z This is a success message
-2025-10-16T16:52:40.113Z [DEBUG] Debugging details: {"key":"value"}

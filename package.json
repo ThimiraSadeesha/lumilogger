@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node src/test.ts"
   },
   "keywords": [
     "logger",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.8.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
 }
