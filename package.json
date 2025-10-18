@@ -24,10 +24,6 @@
   ],
   "author": "Thimira Sadeesha",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ThimiraSadeesha/lumilogger.git"
-  },
   "devDependencies": {
     "@types/node": "^24.8.1",
     "ts-node": "^10.9.2",
