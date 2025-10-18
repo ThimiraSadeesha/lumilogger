@@ -1,14 +1,13 @@
 {
-  "name": "lumilogger",
+  "name": "@thimira/lumilogger",
   "version": "1.0.4",
   "description": "A modern, luminous logging library for Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "ts-node src/test.ts"
   },
   "keywords": [
@@ -25,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ThimiraSadeesha/lumilogger.git"
+    "url": "git+https://github.com/ThimiraSadeesha/lumilogger.git"
   },
   "devDependencies": {
     "@types/node": "^24.8.1",
